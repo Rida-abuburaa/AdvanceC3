@@ -17,10 +17,15 @@ namespace AdvanceC3
             // Reduce code duplication — one class or method can work with many data types.
             // Avoid unnecessary type casting — retrieved values already have the correct type.
             // Make code reusable and easier to maintain.
-       
+
             #endregion
 
-
+            #region QU2
+            //Q2: Write a generic class Container<T> with Add and Get methods.
+           // Container<int> c1 = new Container<int>();
+            //c1.Add(10);
+            //Console.WriteLine(c1.Get());
+            #endregion
         }
     }
 }

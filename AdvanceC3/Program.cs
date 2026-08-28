@@ -67,6 +67,23 @@ namespace AdvanceC3
                 Show<double>(5.5);
             }*/
             #endregion
+
+            #region Qu8
+            //Q8: What is the class constraint?
+            //The class constraint means that T must be a reference type(class).
+            /*
+             static void Show<T>(T value) where T : class
+            {
+                   Console.WriteLine(value);
+             }
+
+             static void Main()
+              {
+                  Show<string>("Hello");
+             } 
+             */
+            #endregion
+
         }
     }
     }

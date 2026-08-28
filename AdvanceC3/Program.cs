@@ -1,4 +1,5 @@
 ﻿using System.Numerics;
+using System.Reflection.Metadata;
 using static System.Net.Mime.MediaTypeNames;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
@@ -33,6 +34,11 @@ namespace AdvanceC3
 
             #endregion
 
+            #region Qu4
+            //Q4: What is a generic method? Write Swap<T> method.
+            // A generic method is a method that can work with different data types using a type parameter such as T.
+           
+            #endregion
         }
     }
 }

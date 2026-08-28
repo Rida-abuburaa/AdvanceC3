@@ -37,13 +37,21 @@ namespace AdvanceC3
             #region Qu4
             //Q4: What is a generic method? Write Swap<T> method.
             // A generic method is a method that can work with different data types using a type parameter such as T.
-           
+
             #endregion
 
             #region Qu5
             //Console.WriteLine(methods.FindMax(10, 20));
 
             #endregion
+
+
+            #region Qu6
+            //Q6: What is a generic interface? Write IRepository<T>. 
+            //A generic interface is an interface that uses a type parameter such as T. It allows the same interface to work with different data types.
+
+            #endregion
+
         }
     }
     }

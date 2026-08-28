@@ -1,4 +1,5 @@
-﻿using System.Numerics;
+﻿using System.Data;
+using System.Numerics;
 using System.Reflection.Metadata;
 using static System.Net.Mime.MediaTypeNames;
 using static System.Runtime.InteropServices.JavaScript.JSType;
@@ -83,6 +84,21 @@ namespace AdvanceC3
              } 
              */
             #endregion
+
+            #region Qu 9-12
+            //Q9: new() constraint
+            // The new() constraint means T must have a public parameterless constructor.
+            //  where T : new ()
+            //  Q10: Interface constraint
+            //An interface constraint means T must implement a specific interface.
+            //where T : IInterface
+            //Q11: Base class constraint
+            //A base class constraint means T must inherit from a specific base class.
+            //where T : BaseClass
+            //Q12: Multiple constraints
+            //Multiple constraints are written after where T : and separated by commas.
+            //where T : BaseClass, IInterface, new ()
+
 
         }
     }

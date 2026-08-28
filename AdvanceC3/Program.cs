@@ -22,10 +22,17 @@ namespace AdvanceC3
 
             #region QU2
             //Q2: Write a generic class Container<T> with Add and Get methods.
-           // Container<int> c1 = new Container<int>();
+            // Container<int> c1 = new Container<int>();
             //c1.Add(10);
             //Console.WriteLine(c1.Get());
             #endregion
+
+            #region QU3
+            //Q3:What are multiple type parameters? Write Pair<TKey, TValue >.
+            //Multiple type parameters means a generic class can use more than one generic type.
+
+            #endregion
+
         }
     }
 }

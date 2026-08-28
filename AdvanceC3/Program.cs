@@ -39,6 +39,11 @@ namespace AdvanceC3
             // A generic method is a method that can work with different data types using a type parameter such as T.
            
             #endregion
+
+            #region Qu5
+            //Console.WriteLine(methods.FindMax(10, 20));
+
+            #endregion
         }
     }
-}
+    }

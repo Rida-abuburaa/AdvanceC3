@@ -52,6 +52,21 @@ namespace AdvanceC3
 
             #endregion
 
+            #region Qu7
+            //Q7: What is the 'struct' constraint? Write an example. 
+            //The struct constraint means that the generic type T must be a value type.
+            //ex:
+            /*static void Show<T>(T value) where T : struct
+            {
+                Console.WriteLine(value);
+            }
+
+            static void Main()
+            {
+                Show<int>(10);
+                Show<double>(5.5);
+            }*/
+            #endregion
         }
     }
     }
